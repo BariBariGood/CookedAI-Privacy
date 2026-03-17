@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CookedAI – Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #333;
+      background: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0 1.5rem;
+    }
+    nav .nav-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    nav .nav-brand {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #111;
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    nav .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    nav .nav-links a {
+      text-decoration: none;
+      color: #555;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    nav .nav-links a:hover { color: #111; }
+    nav .nav-links a.active {
+      color: #111;
+      font-weight: 600;
+    }
+    .page-content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      flex: 1;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: #777;
+      font-size: 1.05rem;
+      margin-bottom: 2.5rem;
+      line-height: 1.5;
+    }
+    .support-card {
+      background: #f9f9f9;
+      border: 1px solid #eaeaea;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .support-card h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 0.75rem;
+    }
+    .support-card p {
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+    .support-card p:last-child { margin-bottom: 0; }
+    .support-card a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .support-card a:hover { text-decoration: underline; }
+    .faq-section { margin-top: 2rem; }
+    .faq-section h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 1.25rem;
+    }
+    .faq-item {
+      border-bottom: 1px solid #eaeaea;
+      padding: 1.25rem 0;
+    }
+    .faq-item:first-of-type { border-top: 1px solid #eaeaea; }
+    .faq-item h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 0.5rem;
+    }
+    .faq-item p {
+      color: #555;
+      font-size: 0.93rem;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: #aaa;
+      font-size: 0.82rem;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">CookedAI</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Privacy Policy</a></li>
+      <li><a href="support.html" class="active">Support</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-content">
+  <h1>Support</h1>
+  <p class="subtitle">We're here to help. If you have questions, feedback, or run into any issues with CookedAI, reach out and we'll get back to you as soon as possible.</p>
+
+  <div class="support-card">
+    <h2>Contact Us</h2>
+    <p>For any questions, concerns, or support requests, please email us at:</p>
+    <p><a href="mailto:cookedaisupport@gmail.com">cookedaisupport@gmail.com</a></p>
+    <p>We aim to respond to all inquiries within 48 hours.</p>
+  </div>
+
+  <div class="support-card">
+    <h2>Bug Reports &amp; Feedback</h2>
+    <p>Found a bug or have a feature suggestion? Send us an email with the following details so we can help you faster:</p>
+    <p>
+      &bull; A brief description of the issue or suggestion<br>
+      &bull; Your device model and iOS version<br>
+      &bull; Steps to reproduce the issue (if applicable)<br>
+      &bull; Screenshots, if possible
+    </p>
+  </div>
+
+  <div class="support-card">
+    <h2>Account &amp; Data</h2>
+    <p>If you'd like to request deletion of your data or have questions about how your information is handled, please review our <a href="index.html">Privacy Policy</a> or contact us directly at <a href="mailto:cookedaisupport@gmail.com">cookedaisupport@gmail.com</a>.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>Is CookedAI free to use?</h3>
+      <p>CookedAI offers both free and premium features. Check the app for the latest details on available plans.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I cancel a subscription?</h3>
+      <p>Subscriptions are managed through your Apple ID. Go to Settings &gt; your name &gt; Subscriptions on your device to manage or cancel your subscription.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>The app is crashing or not loading properly.</h3>
+      <p>Try force-closing the app and reopening it. If the issue persists, make sure you're running the latest version from the App Store. If the problem continues, email us with details about your device and iOS version.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I request my data be deleted?</h3>
+      <p>Send an email to <a href="mailto:cookedaisupport@gmail.com">cookedaisupport@gmail.com</a> with the subject line "Data Deletion Request" and we will process your request within 30 days.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 CookedAI. All rights reserved.
+</footer>
+
+</body>
+</html>
